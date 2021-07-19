@@ -1,0 +1,27 @@
+{
+    "name": "nubank/pairing-assignment",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nubank\\PairingAssignment\\": "lib/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\Nubank\\PairingAssignment\\": "test/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "authors": [
+        {
+            "name": "Ana Magnoni",
+            "email": "anafmagnoni@gmail.com"
+        }
+    ]
+}
+
